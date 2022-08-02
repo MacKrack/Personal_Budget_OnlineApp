@@ -1,5 +1,5 @@
 body {
-    background-color: #7e7f7a;
+    background-image: url(img/denim.png);
     color: #ffffff;
     font-family: 'Vollkorn', serif;
     font-size: 20px;
@@ -9,18 +9,56 @@ body {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    /* temporary */
-    border: 1px dashed white;
 }
 
 #logo {
-    font-size: 60px;
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 960px;
+    margin: 20px;
+    font-size: 70px;
     text-align: center;
-    /* temporary */
-    border: 1px dashed white;
+}
+
+.square {
+    width: 470px;
+    margin-left: 20px;
+    float: left;
+}
+
+#signUpTile {
+    width: 225px;
+    height: 139px;
+    margin-left: none;
+    float: left;
+    background-color: #666666;
+}
+
+#logInTile {
+    width: 225px;
+    height: 139px;
+    margin-left: 20px;
+    float: left;
+    background-color: #555555;
+}
+
+#quoteTile {
+    width: 410px;
+    height: 79px;
+    margin-top: 20px;
+    background-color: #007593;
+    text-align: justify;
+    padding: 30px;
+}
+
+#aboutPersonalBudgetTile {
+    width: 400px;
+    height: 228px;
+    background-color: gray;
+    text-align: justify;
+    padding: 35px;
+}
+
+#footer {
+    width: 960px;
+    margin: 20px;
+    text-align: center;
 }
