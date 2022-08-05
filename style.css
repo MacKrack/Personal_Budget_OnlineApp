@@ -185,20 +185,15 @@ input[type=submit]:focus {
     padding-top: 25px;
 }
 
-#settingsTile {
+#showBalanceTile {
     width: 225px;
     height: 114px;
     margin-left: 20px;
     float: left;
-    background-color: #555555;
+    background-color: gray;
     font-size: 30px;
     text-align: center;
     padding-top: 25px;
-}
-
-#settingsTile:hover {
-    background-color: #777777;
-    cursor: pointer;
 }
 
 #addIncomeTile {
@@ -223,15 +218,20 @@ input[type=submit]:focus {
     padding-top: 25px;
 }
 
-#showBalanceTile {
+#settingsTile {
     width: 225px;
     height: 114px;
-    margin-left: 20px;
+    margin-top: 20px;
     float: left;
-    background-color: gray;
+    background-color: grey;
     font-size: 30px;
     text-align: center;
     padding-top: 25px;
+}
+
+#settingsTile:hover {
+    background-color: #777777;
+    cursor: pointer;
 }
 
 #logOutTile {
