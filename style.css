@@ -173,3 +173,95 @@ input[type=submit]:focus {
 #logInDetails>form>input[type=submit] {
     margin-top: 20px;
 }
+
+#welcomeTile {
+    width: 225px;
+    height: 114px;
+    margin-left: none;
+    float: left;
+    background-color: #666666;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#showBalanceTile {
+    width: 225px;
+    height: 114px;
+    margin-left: 20px;
+    float: left;
+    background-color: gray;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#showBalanceTile:hover {
+    background-color: #999999;
+    cursor: pointer;
+}
+
+#addIncomeTile {
+    width: 225px;
+    height: 114px;
+    margin-left: none;
+    float: left;
+    background-color: gray;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#addIncomeTile:hover {
+    background-color: #999999;
+    cursor: pointer;
+}
+
+#addExpenseTile {
+    width: 225px;
+    height: 114px;
+    margin-left: 20px;
+    float: left;
+    background-color: gray;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#addExpenseTile:hover {
+    background-color: #999999;
+    cursor: pointer;
+}
+
+#settingsTile {
+    width: 225px;
+    height: 114px;
+    margin-top: 20px;
+    float: left;
+    background-color: grey;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#settingsTile:hover {
+    background-color: #999999;
+    cursor: pointer;
+}
+
+#logOutTile {
+    width: 225px;
+    height: 114px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    background-color: grey;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#logOutTile:hover {
+    background-color: #999999;
+    cursor: pointer;
+}
