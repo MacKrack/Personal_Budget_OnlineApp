@@ -200,3 +200,47 @@ input[type=submit]:focus {
     background-color: #777777;
     cursor: pointer;
 }
+
+#addIncomeTile {
+    width: 225px;
+    height: 114px;
+    margin-left: none;
+    float: left;
+    background-color: #666666;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#addExpenseTile {
+    width: 225px;
+    height: 114px;
+    margin-left: 20px;
+    float: left;
+    background-color: #555555;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#showBalanceTile {
+    width: 225px;
+    height: 114px;
+    margin-left: 20px;
+    float: left;
+    background-color: gray;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#logOutTile {
+    width: 225px;
+    height: 114px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    background-color: #007593;
+    text-align: center;
+    padding-top: 25px;
+}
