@@ -1,3 +1,8 @@
 
+.icon-cog:before { content: '\e800'; } /* '' */
+.icon-loop-outline:before { content: '\e801'; } /* '' */
 .icon-login-1:before { content: '\f02c'; } /* '' */
+.icon-logout:before { content: '\f02d'; } /* '' */
+.icon-level-up:before { content: '\f148'; } /* '' */
+.icon-level-down:before { content: '\f149'; } /* '' */
 .icon-user-plus:before { content: '\f234'; } /* '' */

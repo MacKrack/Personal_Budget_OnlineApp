@@ -17,6 +17,36 @@
       "css": "user-plus",
       "code": 62004,
       "src": "fontawesome"
+    },
+    {
+      "uid": "e99461abfef3923546da8d745372c995",
+      "css": "cog",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "dea706a9bd3144316ce37406ec10f469",
+      "css": "level-up",
+      "code": 61768,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "4684e690bad65fb618329dfe52017475",
+      "css": "level-down",
+      "code": 61769,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "6b69b1a2df6d099ba15f11476075438e",
+      "css": "loop-outline",
+      "code": 59393,
+      "src": "typicons"
+    },
+    {
+      "uid": "a6b6f85116fc55e4a7c83d66973035a7",
+      "css": "logout",
+      "code": 61485,
+      "src": "mfglabs"
     }
   ]
 }
