@@ -173,3 +173,14 @@ input[type=submit]:focus {
 #logInDetails>form>input[type=submit] {
     margin-top: 20px;
 }
+
+#welcomeTile {
+    width: 225px;
+    height: 114px;
+    margin-left: none;
+    float: left;
+    background-color: #666666;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+}
