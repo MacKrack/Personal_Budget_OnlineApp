@@ -41,44 +41,56 @@
         <div class="square">
             <div id="expenseDetails">
                 <form action="main-menu.html">
-                    <input type="number" name="amount" placeholder="Expense amount" min="0.01" step="0.01"
-                        onfocus="this.placeholder=''" onblur="this.placeholder='Amount'" required>
-                    <br />
-                    <input type="date" name="date" placeholder="Date" onfocus="this.placeholder=''"
-                        onblur="this.placeholder='Date'" required>
-                    <br />
-                    <select id="paymentMethod" name="paymentMethod">
-                        <option value="" disabled selected>Payment Method</option>
-                        <option value="cash">Cash</option>
-                        <option value="debit">Debit card</option>
-                        <option value="credit">Credit card</option>
-                    </select>
-                    <br />
-                    <select id="category" name="category">
-                        <option value="" disabled selected>Category</option>
-                        <option value="food">Food</option>
-                        <option value="living">Living</option>
-                        <option value="transportation">Transportation</option>
-                        <option value="healthCare">Health care</option>
-                        <option value="clothes">Clothes</option>
-                        <option value="hygiene">Hygiene</option>
-                        <option value="kids">Kids</option>
-                        <option value="entertainment">Entertainment</option>
-                        <option value="trip">Trip</option>
-                        <option value="coaching">Coaching</option>
-                        <option value="books">Books</option>
-                        <option value="savings">Savings</option>
-                        <option value="retairment">Retairment</option>
-                        <option value="repayments">Repayments</option>
-                        <option value="donation">Donation</option>
-                        <option value="others">Others</option>
-                    </select>
-                    <br />
-                    <input type="text" name="comment" placeholder="Comment (optional)" onfocus="this.placeholder=''"
-                        onblur="this.placeholder='Comment (optional)'" required>
-                    <br />
-                    <input type="submit" value="Sign Up!">
-                    <input type="reset" value="Clear form">
+                    <div class="row1">
+                        <input type="number" name="amount" placeholder="Expense amount" min="0.01" step="0.01"
+                            onfocus="this.placeholder=''" onblur="this.placeholder='Amount'" required>
+                    </div>
+                    <div class="row1">
+                        <input type="date" name="date" placeholder="Date" onfocus="this.placeholder=''"
+                            onblur="this.placeholder='Date'" required>
+                    </div>
+                    <div style="clear: both;"></div>
+                    <div class="row2">
+                        <select id="paymentMethod" name="paymentMethod">
+                            <option value="" disabled selected>Payment Method</option>
+                            <option value="cash">Cash</option>
+                            <option value="debit">Debit card</option>
+                            <option value="credit">Credit card</option>
+                        </select>
+                    </div>
+                    <div class="row2">
+                        <select id="category" name="category">
+                            <option value="" disabled selected>Category</option>
+                            <option value="food">Food</option>
+                            <option value="living">Living</option>
+                            <option value="transportation">Transportation</option>
+                            <option value="healthCare">Health care</option>
+                            <option value="clothes">Clothes</option>
+                            <option value="hygiene">Hygiene</option>
+                            <option value="kids">Kids</option>
+                            <option value="entertainment">Entertainment</option>
+                            <option value="trip">Trip</option>
+                            <option value="coaching">Coaching</option>
+                            <option value="books">Books</option>
+                            <option value="savings">Savings</option>
+                            <option value="retairment">Retairment</option>
+                            <option value="repayments">Repayments</option>
+                            <option value="donation">Donation</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </div>
+                    <div style="clear: both;"></div>
+                    <div class="row3">
+                        <input type="text" name="comment" placeholder="Comment (optional)" onfocus="this.placeholder=''"
+                            onblur="this.placeholder='Comment (optional)'" required>
+                    </div>
+                    <div class="row4">
+                        <input type="submit" value="Sign Up!">
+                    </div>
+                    <div class="row4">
+                        <input type="reset" value="Clear form">
+                    </div>
+                    <div style="clear: both;"></div>
                 </form>
             </div>
         </div>

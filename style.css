@@ -73,8 +73,7 @@ body {
     padding: 35px;
 }
 
-#signUpDetails,
-#expenseDetails {
+#signUpDetails {
     width: 430px;
     height: 258px;
     font-size: 25px;
@@ -276,14 +275,51 @@ input[type=submit]:focus {
     padding: 30px 40px;
 }
 
+#expenseDetails {
+    width: 470px;
+    height: 298px;
+    background-color: gray;
+}
+
+.row1 {
+    width: 220px;
+    /* background-color: white; */
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.row2 {
+    width: 220px;
+    /* background-color: white; */
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.row3 {
+    width: 450px;
+    /* background-color: white; */
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.row4 {
+    width: 205px;
+    /* background-color: white; */
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
 /* ---------------------------------------- */
 
-input[type=number],
-input[type=date],
-select[id="paymentMethod"],
-select[id="category"],
-input[type=password] {
-    width: 350px;
+.row1>input[type=number],
+.row1>input[type=date],
+.row2>select[id="paymentMethod"],
+.row2>select[id="category"] {
+    width: 100%;
+    height: 50px;
     background-color: #666666;
     color: #e3dac9;
     border: 2px solid #888888;
@@ -292,13 +328,26 @@ input[type=password] {
     padding: 10px;
     box-sizing: border-box;
     outline: none;
-    margin-top: 5px;
-
 }
 
-input[type=submit],
-input[type=reset] {
-    width: 300px;
+.row3>input[type=text] {
+    width: 100%;
+    height: 50px;
+    background-color: #666666;
+    color: #e3dac9;
+    border: 2px solid #888888;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0px;
+}
+
+.row4>input[type=submit],
+.row4>input[type=reset] {
+    width: 100%;
+    height: 60px;
     background-color: #666666;
     font-size: 20px;
     color: #e3dac9;
@@ -309,15 +358,17 @@ input[type=reset] {
     cursor: pointer;
     letter-spacing: 2px;
     outline: none;
+    margin: 0px;
 }
 
-input[type=submit]:hover {
+input[type=submit]:hover,
+input[type=reset]:hover {
     background-color: #555555;
 }
 
 input[type=submit]:focus {
     /* -webkit-box-shadow: inset 0px 0px 34px 4px rgba(177, 170, 166, 1);
-    -moz-box-shadow: inset 0px 0px 34px 4px rgba(177, 170, 166, 1);
+    -moz-box-show: inset 0px 0px 34px 4px rgba(177, 170, 166, 1);
     box-shadow: inset 0px 0px 34px 4px rgba(177, 170, 166, 1); */
     -webkit-box-shadow: 0px 0px 34px 4px rgba(177, 170, 166, 1);
     -moz-box-shadow: 0px 0px 34px 4px rgba(177, 170, 166, 1);
