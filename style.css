@@ -265,3 +265,12 @@ input[type=submit]:focus {
     background-color: #999999;
     cursor: pointer;
 }
+
+#instructionsTile {
+    width: 390px;
+    height: 79px;
+    background-color: #666666;
+    font-size: 30px;
+    text-align: justify;
+    padding: 30px 40px;
+}
