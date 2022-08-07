@@ -272,6 +272,15 @@ input[type=submit]:focus {
     padding: 30px 40px;
 }
 
+#showBalanceInstructionsTile {
+    width: 250px;
+    height: 39px;
+    background-color: #666666;
+    font-size: 30px;
+    text-align: justify;
+    padding: 50px 110px;
+}
+
 #expenseDetails {
     width: 470px;
     height: 298px;
