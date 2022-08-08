@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Personal Budget Online</title>
+
+    <meta name="description" content="Easy way to start managing the budget." />
+    <meta name="keywords"
+        content="money, money management, personal cash flow, spending, incomes, controlling, monitoring, being wealthy, not poor" />
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="logo">
+            <a href="index.html">
+                Personal Budget Online
+            </a>
+        </div>
+        <div class="square">
+            <div id="showBalanceInstructionsTile">
+                Enter the period &#8680;
+            </div>
+            <div id="quoteTile">
+                <i>Do not save what is left after spending; instead spend what is left after saving.</i>
+                <br />
+                - Warren Buffett
+            </div>
+        </div>
+        <div class="square">
+            <div id="setBalancePeriodTile">
+                <form action="main-menu.html">
+                    <div class="row1">
+                        <p id="enterThePeriod">Choose the period: </p>
+                    </div>
+                    <div class="row1">
+                        <select id="category" required>
+                            <option value="" disabled selected>Period</option>
+                            <option value="currentMonth">Current month</option>
+                            <option value="previousMonth">Previous month</option>
+                            <option value="currentYear">Current year</option>
+                            <option value="selectedPeriod">Select period</option>
+                        </select>
+                    </div>
+                    <div style="clear: both;"></div>
+                    <div id="selectedPeriodRow">
+                        <div class="chooseDate">Choose start date:</div>
+                        <div class="chooseDate">Choose end date:</div>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div class="row2">
+                        <input type="date" name="date" required>
+                    </div>
+                    <div class="row2">
+                        <input type="date" name="date" required>
+                    </div>
+                    <div style="clear: both;"></div>
+                    <div class="row4">
+                        <input type="submit" value="Show balance">
+                    </div>
+                    <div class="row4">
+                        <input type="reset" value="Clear form">
+                    </div>
+                    <div style="clear: both;"></div>
+                </form>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div id="balancePresentationTile">
+            <div class="pieChartTile">
+                <img src="img/chart.png">
+                <p style="margin-top: 5px;">Pie Chart - Incomes</p>
+            </div>
+            <div class="pieChartTile">
+                <img src="img/chart.png">
+                <p style="margin-top: 5px;">Pie Chart2 - Expenses</p>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="tableTile1">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="border-right: none;" colspan="2">Incomes</th>
+                        </tr>
+                        <th>Category</th>
+                        <th>Amount</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr class="sumUp">
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="tableTile2">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="border-right: none;" colspan="2">Expenses</th>
+                        </tr>
+                        <th>Category</th>
+                        <th>Amount</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                        <tr class="sumUp">
+                            <td>Lorem ipsum</td>
+                            <td>123,00 PLN</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div style="clear: both;"></div>
+            <div id="sumUpBalanceInformationTile">
+                <div id="balanceConfirmation">
+                    Balance: -330,00 PLN
+                    <p style="margin: 0;">Watch out! You going into debt!</p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            2022 &copy; Maciej Krawczyk <span style="font-size: 30px;">&#9993;</span> <a
+                href="mailto:mdk.krawczyk@gmail.com">mdk.krawczyk@gmail.com</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
