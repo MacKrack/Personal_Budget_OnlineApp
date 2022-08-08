@@ -512,3 +512,13 @@ th {
     border-bottom: 1px dashed;
 
 }
+
+#balanceConfirmation {
+    width: 470px;
+    background-color: #666666;
+    border: 2px solid #888888;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0 10px 0;
+    border-radius: 5px;
+}
