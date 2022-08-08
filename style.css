@@ -24,6 +24,11 @@ body {
     float: left;
 }
 
+#balancePresentationTile {
+    width: 960px;
+    margin: 20px 20px 0px 20px;
+}
+
 #signUpTile {
     width: 225px;
     height: 114px;
@@ -435,4 +440,75 @@ input[type="date"]:not(:valid)::-webkit-datetime-edit {
     padding-left: 10px;
     text-align: center;
     margin: 0;
+}
+
+.pieChartTile {
+    width: 470px;
+    float: left;
+    text-align: center;
+    background-color: gray;
+    padding-top: 25px;
+}
+
+.pieChartTile:first-child {
+    margin-right: 20px;
+}
+
+.tableTile1 {
+    width: 470px;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 20px;
+    padding: 25px 0 25px 0;
+    background-color: gray;
+}
+
+.tableTile2 {
+    width: 470px;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+    padding: 25px 0 25px 0;
+    background-color: gray;
+}
+
+
+
+#sumUpBalanceInformationTile {
+    width: 960;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    background-color: gray;
+    padding: 20px 0 20px 0;
+    font-size: 25px;
+}
+
+table {
+    /* background-color: pink; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 0 10px 0 10px;
+}
+
+tr td:first-child,
+thead th:first-child {
+    border-right: 1px dashed;
+}
+
+.sumUp td {
+    font-size: 22px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    border-top: 1px dashed;
+    padding-top: 5px;
+}
+
+th {
+    border-bottom: 1px dashed;
+
 }
