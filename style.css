@@ -476,7 +476,7 @@ input[type="date"]:not(:valid)::-webkit-datetime-edit {
 
 
 #sumUpBalanceInformationTile {
-    width: 960;
+    width: 960px;
     text-align: center;
     letter-spacing: 2px;
     margin-top: 20px;
